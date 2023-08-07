@@ -1,0 +1,125 @@
+/* Google about CSS reset, you can keep them in a separate stylesheet */
+
+body {
+    font-family: "Roboto";
+    margin: 0;
+}
+
+.inside {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.header .inside {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.header-links {
+    display: flex;
+    gap: 16px;
+  }
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+  }
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+  }
+
+.header-links,
+.secondary-text {
+    color: #E5E7EB;
+  }
+
+.main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.secondary-text {
+    font-size: 18px;
+}
+
+.hero,
+.images,
+.quote,
+.cta {
+    padding: 64px;
+}
+
+.hero .inside{
+    display: flex;
+}
+
+.hero-image {
+    height: 200px;
+    width: 600px;
+
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+.images .inside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.images-title {
+    margin-bottom: 64px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.image-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-card img {
+    border: 2px solid #3882F6;
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+}
+
+.image-text {
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100    ;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.footer .inside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    padding: 24px;
+  }
